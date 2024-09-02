@@ -35,7 +35,6 @@
 
 <style>
     img.team-logo {
-        background-color: #000c03;
         padding: 0.5em;
     }
     .team-grid {
@@ -76,7 +75,7 @@
     .team-grid .team-info {
         display: flex;
         width: 100%;
-        background-color: #000c03;
+        background-color: #000c03cc;
         justify-content: center;
         align-items: center;
         flex: 1 0;
@@ -87,7 +86,6 @@
     }
 
     .team-grid:hover .team-info {
-        background-color: #000c03;
         flex-direction: row;
         ul {
             list-style: none;

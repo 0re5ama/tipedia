@@ -98,7 +98,6 @@
         </div>
         {#each node.node_groups as group}
             <h3>{group.name}</h3>
-
             <table
                 class="wikitable wikitable-bordered grouptable"
                 style="width:330px;margin:0px;text-align:center">
