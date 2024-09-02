@@ -10,6 +10,7 @@
     <div class="team-info">
         <div class="logo">
             <img
+                loading="lazy"
                 class="team-logo"
                 src="https://cdn.akamai.steamstatic.com/apps/dota2/teamlogos/{team.team_id}.png"
                 alt={team.team_name} />
@@ -19,6 +20,7 @@
                 {#each players.filter((x) => x.team_id == team.team_id) as player}
                     <li>
                         <img
+                            loading="lazy"
                             class="profile"
                             src="https://cdn.akamai.steamstatic.com/apps/dota2/players/{player.account_id}.png"
                             alt={team.team_name} />
